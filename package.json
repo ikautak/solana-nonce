@@ -1,0 +1,19 @@
+{
+  "name": "solana-nonce",
+  "version": "1.0.0",
+  "scripts": {
+    "format": "biome format *.ts --write"
+  },
+  "dependencies": {
+    "@solana-developers/helpers": "^2.7.0",
+    "@solana/web3.js": "^1.98.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@types/node": "^22.13.5",
+    "ts-node": "^10.9.2"
+  },
+  "volta": {
+    "node": "20.15.1"
+  }
+}
